@@ -1,6 +1,4 @@
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/* ini untuk section hero */
 .hero {
   width: 100%;
   min-height: 30vh;
@@ -60,11 +58,6 @@
   background: #2cbc85;
 }
 
-@media (max-width: 768px) {
-  .hero h2 {
-    font-size: 32px;
-  }
-}
 
 .gallery {
   background-color: #000;
@@ -79,7 +72,7 @@ img:hover {
   box-sizing: border-box;
 }
 
-/* Style inputs */
+
 input[type=text],
 select,
 textarea {
@@ -91,17 +84,6 @@ textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
 
 /* Style the container/contact section */
 .container {
@@ -109,20 +91,6 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 @media screen and (max-width: 600px) {
 
@@ -133,7 +101,7 @@ input[type=submit]:hover {
   }
 }
 
-
+/* Atur Responsive */
 @media (min-width: 992px) {
   .col img {
     margin-top: 15px;
@@ -184,5 +152,11 @@ input[type=submit]:hover {
 @media (min-width: 1200px) and (max-width:1399px) {
   .col img {
     width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 32px;
   }
 }
