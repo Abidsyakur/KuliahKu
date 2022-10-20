@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Tailwind</title>
+</head>
+
+<body>
+
+    <!-- <div class="container mx-auto px-4 py-4">
+        <h1 class="tex-2xl font-bold text-blue-700"> Awesome Cards </h1>
+        <div class="grid grid-cols-3 grid-rows-2 gap-2">
+            <div class="cols-span-5 row-span-2 bg-blue-100 text-center p-4">
+                column 1
+            </div>
+            <div class="cols-span-1 row-span-1 bg-blue-100 text-center p-4">
+                column 2
+            </div>
+            <div class="cols-span-1 row-span-1 bg-blue-100 text-center p-4">
+                column 3
+            </div>
+            <div class="cols-span-1 row-span-1 bg-blue-100 text-center p-4">
+                column 4
+            </div>
+            <div class="cols-span-1 row-span-1 bg-blue-100 text-center p-4">
+                column 5
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 py-2">
+        <div class="grid grid-rows-3 grid-cols-3 gap-1">
+            <div class="cols-span-2 bg-black">
+                coloumn 1
+            </div>
+            <div class="cols-span-2 bg-black">
+                coloumn 1
+            </div>
+            <div class="cols-span-2 bg-black">
+                coloumn 1
+            </div>
+        </div>
+    </div> -->
+
+    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
+            </svg>
+            <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+        </div>
+        <div class="block lg:hidden">
+            <button
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center">
+            <div class="text-lg lg:flex-grow">
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Home
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    About
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Services
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Portfolio
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Team
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+                    data-dropdown-toggle="dropdown" id="dropdownDefault">
+                    Contact
+                </a>
+
+                <!-- Dropdown menu -->
+
+            </div>
+            <div>
+                <a href="#"
+                    class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 rounded-full">Get
+                    Started</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class=" mx-auto px-4 py-4  bg-teal-500">
+
+        <div class="grid grid-rows-1 grid-cols-2">
+            <div class="grid grid-rows-2 grid-cols-1">
+                <div class="col-span-1 row-span-3">
+
+                    <div class="text-4xl font-bold text-white px-4 py-4 ml-4 mt-24 leading-snug">
+                        <h1>Better solutions For Your Business</h1>
+                    </div>
+                    <div class="text-xl font-bold px-4 ml-4 text-gray-700">
+                        <h2>We are team of talented designers making websites with tailwind</h2>
+                    </div>
+
+
+                    <button
+                        class="rounded-full px-4 py-2 mt-10 ml-8 leading-none border rounded text-white border-white hover:border-transparent  hover:bg-white hover:text-teal-500 ">Save
+                        Changes</button>
+                    <button
+                        class="rounded-full px-4 py-2 mt-10 ml-8 leading-none border rounded text-white border-white hover:border-transparent  hover:bg-white hover:text-teal-500 ">Watch
+                        Video</button>
+                </div>
+
+
+
+            </div>
+
+            <div class="grid grid-rows-1 grid-cols-1">
+                <img src="img/foto1.png" alt="" width=700 class="h-3/4 animate-pulse">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- icon  svg -->
+
+
+    <div class="grid grid-rows-1 grid-cols-4 gap-7 px-72 -m-44">
+        <div
+            class="py-14 hover:py-15 bg-teal-500 drop-shadow-2xl text-center rounded-lg hover:bg-teal-400 duration-700  ">
+
+            <div class="px-16">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-44 h-44 stroke-slate-300">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+
+
+
+            </div>
+            <div class="font-bold text-3xl text-slate-300">lorem ipsum</div>
+        </div>
+        <div
+            class="py-14 hover:py-15 bg-teal-500 drop-shadow-2xl text-center rounded-lg hover:bg-teal-400 duration-700  ">
+
+            <div class="px-16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-44 h-44 stroke-slate-300">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+
+
+            </div>
+            <div class="font-bold text-3xl text-slate-300">lorem ipsum</div>
+        </div>
+        <div
+            class="py-14 hover:py-15 bg-teal-500 drop-shadow-2xl text-center rounded-lg hover:bg-teal-400 duration-700  ">
+
+            <div class="px-16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-44 h-44 stroke-slate-300">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+
+
+
+            </div>
+            <div class="font-bold text-3xl text-slate-300">lorem ipsum</div>
+        </div>
+        <div
+            class="py-14 hover:py-15 bg-teal-500 drop-shadow-2xl text-center rounded-lg hover:bg-teal-400 duration-700  ">
+
+            <div class="px-16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-44 h-44 stroke-slate-300">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+
+
+            </div>
+            <div class="font-bold text-3xl text-slate-300">lorem ipsum</div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 text-center font-bold mt-44 px-4 py-10 text-xl">
+        <h1>About Us</h1>
+    </div>
+
+    <div class="grid grid-rows-1 grid-cols-2">
+
+        <div class="grid grid-rows-2 grid-cols-1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, quaerat deserunt! Sint ratione nihil
+                optio
+                saepe nobis veniam aut! Porro!</p>
+
+
+
+        </div>
+
+        <div class="grid grid-rows-1 grid-cols-1">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nulla animi, aut molestiae recusandae
+                nesciunt incidunt magni esse iusto beatae.
+            </p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
